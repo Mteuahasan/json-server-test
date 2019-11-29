@@ -1,0 +1,19 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "amount": 12,
+      "payer": {
+        "firstname": "Jean-Claude",
+        "lastname": "Van Damme"
+      },
+      "receiver": {
+        "firstname": "Sylvester",
+        "lastname": "Stallone"
+      },
+      "message": "Be aware.",
+      "date": "2019-11-29T10:50:42.389Z",
+      "status": "accepted"
+    }
+  ]
+}
