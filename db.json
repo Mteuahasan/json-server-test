@@ -2,7 +2,7 @@
   "transactions": [
     {
       "id": 1,
-      "amount": 12,
+      "amount": 12.0,
       "payer": {
         "firstname": "Jean-Claude",
         "lastname": "Van Damme"
@@ -19,7 +19,7 @@
     },
     {
       "id": 2,
-      "amount": 5,
+      "amount": 5.0,
       "payer": {
         "firstname": "Jet",
         "lastname": "Li"
@@ -64,7 +64,75 @@
         "businessName": null
       },
       "message": "Remboursement Zoo 🐘",
-      "date": "2019-12-1209:10:47.389Z",
+      "date": "2019-12-12T09:10:47.389Z",
+      "status": "accepted",
+      "isPro": false
+    },
+    {
+      "id": 5,
+      "amount": 12.0,
+      "payer": {
+        "firstname": "Bruce",
+        "lastname": "Willis"
+      },
+      "receiver": {
+        "firstname": null,
+        "lastname": null,
+        "businessName": "Nakatomi Pizza - Pizzeria"
+      },
+      "message": null,
+      "date": "2019-12-13T12:54:03.389Z",
+      "status": "declined",
+      "isPro": true
+    },
+    {
+      "id": 6,
+      "amount": 417.99,
+      "payer": {
+        "firstname": "Keanu",
+        "lastname": "Reeves"
+      },
+      "receiver": {
+        "firstname": "Laurence",
+        "lastname": "Fishburne",
+        "businessName": null
+      },
+      "message": "Remboursement carbu Mustang",
+      "date": "2019-12-13T21:32:56.389Z",
+      "status": "accepted",
+      "isPro": false
+    },
+    {
+      "id": 7,
+      "amount": 25.0,
+      "payer": {
+        "firstname": "Keanu",
+        "lastname": "Reeves"
+      },
+      "receiver": {
+        "firstname": "Tank",
+        "lastname": "🤷‍♂️",
+        "businessName": null
+      },
+      "message": "Cours de Kung Fu",
+      "date": "2019-12-14T11:13:12.389Z",
+      "status": "accepted",
+      "isPro": false
+    },
+    {
+      "id": 7,
+      "amount": 25.0,
+      "payer": {
+        "firstname": "Keanu",
+        "lastname": "Reeves"
+      },
+      "receiver": {
+        "firstname": "Tank",
+        "lastname": "🤷‍♂️",
+        "businessName": null
+      },
+      "message": "Cours de Kung Fu",
+      "date": "2019-12-14T11:13:12.389Z",
       "status": "accepted",
       "isPro": false
     }
